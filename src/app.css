@@ -2,51 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  scroll-behavior: smooth;
-}
+@layer base {
+  h1 {
+    @apply text-4xl font-sans leading-extra-loose font-bold;
+  }
 
-* {
-  font-family: 'Nunito', sans-serif;
-}
+  h2 {
+    @apply text-3xl font-sans leading-loose font-bold;
+  }
 
-h1,
-h2,
-h3,
-h4 {
-  font-weight: 700;
-}
+  h3 {
+    @apply text-2xl font-sans leading-relaxed font-bold;
+  }
 
-h1 {
-  font-size: 70px;
-  line-height: 78px;
-}
+  h4 {
+    @apply text-xl font-sans leading-normal font-bold;
+  }
 
-h2 {
-  font-size: 38px;
-  line-height: 45px;
-}
+  h5 {
+    @apply text-sm font-sans leading-tight font-medium text-primary uppercase;
+  }
 
-h3 {
-  font-size: 28px;
-  line-height: 36px;
-}
-
-h4 {
-  font-size: 24px;
-  line-height: 32px;
-}
-
-h5 {
-  /* subtitle */
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-p {
-  /* body text small */
-  font-weight: light;
-  font-size: 16px;
-  line-height: 24px;
+  p {
+    @apply text-base font-sans leading-snug font-normal;
+  }
 }
