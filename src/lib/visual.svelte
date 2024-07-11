@@ -16,7 +16,9 @@
     <h1 class="text-4xl mb-[15px] text-white">{title}</h1>
     <p class="text-lg mb-[15px] text-white font-normal w-3/5">{description}</p>
     <div class="flex gap-5">
-      <button class="bg-primary font-bold px-[42px] py-[18px] uppercase">
+      <button
+        class="bg-primary hover:primary-hover font-bold px-[42px] py-[18px] uppercase"
+      >
         {button1Text}
       </button>
       <button class="bg-secondary font-bold px-[42px] py-[18px] uppercase">

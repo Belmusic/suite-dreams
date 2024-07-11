@@ -9,6 +9,9 @@ export default {
       'primary-hover': '#FFAD33',
       'secondary-hover': '#C4C4C4',
       white: '#FFFFFF',
+      black: '#000000',
+      yellow: '#E1B32C',
+      'dark-gray': '#666666',
     },
     fontFamily: {
       sans: ['nunito', 'sans-serif'],

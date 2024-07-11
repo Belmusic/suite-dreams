@@ -1,4 +1,4 @@
-<div class="container py-9 px-40 flex items-center">
+<div class="py-9 px-40 flex items-center">
   <svg
     width="136"
     height="43"
