@@ -1,4 +1,4 @@
-<div class="py-9 px-40 flex items-center">
+<div class="flex justify-center items-center xl:justify-start my-9 xl:mx-40">
   <svg
     width="136"
     height="43"
