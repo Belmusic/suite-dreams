@@ -1,3 +1,5 @@
-<div class="bg-black py-[64px] z-20">
-  <p class="text-white text-[48px] text-center">FOOTER</p>
+<div
+  class="bg-black min-h-[300px] xl:flex xl:flex-wrap xl:justify-center xl:items-center"
+>
+  <h3 class="text-white text-center py-3.5 xl:text-[48px]">FOOTER</h3>
 </div>
