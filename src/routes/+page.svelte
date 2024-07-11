@@ -59,7 +59,7 @@
     button1Text="Lorem ipsum"
     button2Text="Lorem ipsum"
   />
-  <div class="px-[162px] pt-[200px] mb-[20px]">
+  <div class="px-[162px] pt-[200px] mb-[20px] z-10">
     <h2 class="mb-[30px]">Ontdek ons hotel aanbod</h2>
 
     <div class="flex flex-wrap">

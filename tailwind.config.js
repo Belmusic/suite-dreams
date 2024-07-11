@@ -30,22 +30,16 @@ export default {
       loose: '45px',
       relaxed: '36px',
       normal: '32px',
-      tight: '30px',
-      snug: '26px',
-      compact: '24px',
-      condensed: '20px',
+      compact: '30px',
+      condensed: '26px',
+      snug: '24px',
+      tight: '20px',
     },
     fontWeight: {
       bold: '700',
       medium: '500',
       light: '300',
       normal: '400',
-    },
-    extend: {
-      padding: {
-        '294px': '294px',
-        '100ps': '100px',
-      },
     },
   },
 };
