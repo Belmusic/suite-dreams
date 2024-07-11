@@ -13,7 +13,7 @@
     <img src={imageUrl} alt={name} class="w-full" />
   </div>
   <div
-    class="xl:absolute xl:bottom-0 xl:left-1/2 xl:transform xl:-translate-x-1/2 xl:translate-y-1/2 xl:px-6 py-5 text-center xl:w-3/4 bg-white"
+    class="xl:absolute max-w-[50%] xl:max-w-[100%] xl:bottom-0 xl:left-1/2 xl:transform xl:-translate-x-1/2 xl:translate-y-1/2 xl:px-6 py-5 px-3 text-center xl:w-3/4 bg-white"
   >
     <h5 class="text-primary">{city}</h5>
     <h4 class="font-bold text-[20px] xl:text-xl mb-2">{name}</h4>

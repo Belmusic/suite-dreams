@@ -26,15 +26,15 @@
       {description}
     </p>
     <div
-      class="flex flex-col 2xl:flex-row gap-3 2xl:gap-5 w-full items-center 2xl:items-start"
+      class="flex flex-col xl:flex-row gap-3 xl:gap-5 w-full items-center xl:items-start"
     >
       <button
-        class="bg-primary hover:bg-primary-hover font-bold px-10 py-5 2xl:px-[42px] 2xl:py-[18px] uppercase text-xs 2xl:text-base w-3/5 2xl:w-auto"
+        class="bg-primary hover:bg-primary-hover font-bold px-10 py-5 xl:px-[42px] xl:py-[18px] uppercase text-xs xl:text-base w-3/5 xl:w-auto"
       >
         {button1Text}
       </button>
       <button
-        class="bg-secondary hover:bg-secondary-hover font-bold px-10 py-5 2xl:px-[42px] 2xl:py-[18px] uppercase text-xs 2xl:text-base w-3/5 2xl:w-auto"
+        class="bg-secondary hover:bg-secondary-hover font-bold px-10 py-5 xl:px-[42px] xl:py-[18px] uppercase text-xs xl:text-base w-3/5 xl:w-auto"
       >
         {button2Text}
       </button>
