@@ -16,12 +16,12 @@
     class="absolute inset-0 xl:bottom-0 z-9 flex flex-col justify-end text-center xl:text-left p-4 pb-9 xl:p-0 xl:px-72 xl:py-[100px] bg-gradient-to-t from-black/60 to-transparent"
   >
     <h1
-      class="text-[32px] leading-[40px] text-white xl:mx-o xl:text-4xl xl:mb-4"
+      class="text-[32px] leading-[40px] text-white mx-6 xl:mx-0 xl:text-4xl xl:mb-4"
     >
       {title}
     </h1>
     <p
-      class="leading-tight xl:leading-compact m-6 xl:mb-2.5 text-white font-normal xl:text-lg xl:w-3/5"
+      class="leading-tight xl:leading-compact m-6 xl:m-0 xl:mb-2.5 text-white font-normal xl:text-lg xl:w-3/5"
     >
       {description}
     </p>
