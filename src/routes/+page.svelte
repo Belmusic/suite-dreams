@@ -59,28 +59,28 @@
     button1Text="Lorem ipsum"
     button2Text="Lorem ipsum"
   />
-  <div class="px-[162px] pt-[200px] mb-[20px] z-10">
-    <h2 class="mb-[30px]">Ontdek ons hotel aanbod</h2>
+  <div
+    class="flex flex-col items-center xl:items-start xl:px-[162px] xl:pt-[200px] xl:mb-[20px]"
+  >
+    <h3 class="mt-12 mb-5 xl:mb-[30px] xl:text-3xl">Ontdek ons hotel aanbod</h3>
 
-    <div class="flex flex-wrap">
+    <div class="grid gap-6 xl:grid-cols-2 xl:gap-10">
       {#each hotels as hotel}
-        <div class="w-1/2 p-[15px]">
-          <Card
-            imageUrl={hotel.imageUrl}
-            city={hotel.city}
-            name={hotel.name}
-            description={hotel.description}
-            rating={hotel.rating}
-            reviewers={hotel.reviewers}
-            price={hotel.price}
-          />
-        </div>
+        <Card
+          imageUrl={hotel.imageUrl}
+          city={hotel.city}
+          name={hotel.name}
+          description={hotel.description}
+          rating={hotel.rating}
+          reviewers={hotel.reviewers}
+          price={hotel.price}
+        />
       {/each}
     </div>
   </div>
 </body>
 <footer>
-  <div class="z-10"><Footer /></div>
+  <Footer />
 </footer>
 
 <style>
