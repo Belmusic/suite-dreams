@@ -14,7 +14,7 @@ export default {
       'dark-gray': '#666666',
     },
     fontFamily: {
-      sans: ['nunito', 'sans-serif'],
+      sans: ['Nunito', 'sans-serif'],
     },
     fontSize: {
       sm: '16px',
@@ -42,4 +42,5 @@ export default {
       normal: '400',
     },
   },
+  plugins: [require('@tailwindcss/aspect-ratio')],
 };
