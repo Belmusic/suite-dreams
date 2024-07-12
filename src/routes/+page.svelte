@@ -3,6 +3,21 @@
   import Visual from '$lib/visual.svelte';
   import Card from '$lib/card.svelte';
   import Footer from '$lib/footer.svelte';
+  import { fetchHotels } from '$lib/api';
+  import { onMount } from 'svelte';
+
+  onMount(() => {
+    const searchParameters = {
+      engine: 'google_hotels',
+      query: 'Amsterdam',
+      currency: 'EUR',
+      check_in_date: '2024-08-01',
+      check_out_date: '2024-08-03',
+    };
+    fetchHotels(searchParameters).then((hotelsResponse) =>
+      console.log(hotelsResponse)
+    );
+  });
 
   const hotels = [
     {
