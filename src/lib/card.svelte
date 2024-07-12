@@ -4,7 +4,7 @@
   export let name;
   export let description;
   export let rating;
-  export let reviewers;
+  export let reviews;
   export let price;
 </script>
 
@@ -21,11 +21,9 @@
       {description}
     </p>
     <div class="inline-flex mt-2.5 items-center gap-[2px]">
-      <p class="text-base text-yellow text-center text-[15px]">
-        {rating}
-      </p>
+      <p class="text-base text-yellow text-center text-[15px]">{rating}</p>
       <img src="src/public/star.svg" alt="star" class="w-4 h-4" />
-      <p class="text-sm leading-tight text-dark-gray">({reviewers})</p>
+      <p class="text-sm leading-tight text-dark-gray">({reviews})</p>
     </div>
     <p class="text-sm mt-2.5">€{price},-</p>
   </div>

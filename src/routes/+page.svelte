@@ -12,7 +12,7 @@
       description:
         'this is a description of about two lines of text I dont know what IIm saying here help ',
       rating: 4.5,
-      reviewers: 436,
+      reviews: 436,
       price: 176,
     },
     {
@@ -22,7 +22,7 @@
       description:
         'this is a description of about two lines of text I dont know what IIm saying here help ',
       rating: 4.5,
-      reviewers: 436,
+      reviews: 436,
       price: 176,
     },
     {
@@ -32,7 +32,7 @@
       description:
         'this is a description of about two lines of text I dont know what IIm saying here help ',
       rating: 4.5,
-      reviewers: 436,
+      reviews: 436,
       price: 176,
     },
     {
@@ -42,7 +42,7 @@
       description:
         'this is a description of about two lines of text I dont know what IIm saying here help ',
       rating: 4.5,
-      reviewers: 436,
+      reviews: 436,
       price: 176,
     },
   ];
@@ -72,7 +72,7 @@
           name={hotel.name}
           description={hotel.description}
           rating={hotel.rating}
-          reviewers={hotel.reviewers}
+          reviews={hotel.reviews}
           price={hotel.price}
         />
       {/each}
