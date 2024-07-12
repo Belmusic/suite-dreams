@@ -9,8 +9,12 @@
 </script>
 
 <div class="relative xl:mb-[110px] flex flex-wrap justify-center">
-  <div class="aspect-w-785 aspect-h-500 max-w-[360px] xl:max-w-[785px]">
-    <img src={imageUrl} alt={name} class="w-full" />
+  <div class="w-full max-w-[360px] xl:max-w-[785px] relative">
+    <img
+      src={imageUrl}
+      alt={name}
+      class="w-full h-auto object-cover xl:h-[500px] xl:w-[785px]"
+    />
   </div>
   <div
     class="xl:absolute max-w-[50%] xl:max-w-[100%] xl:bottom-0 xl:left-1/2 xl:transform xl:-translate-x-1/2 xl:translate-y-1/2 xl:px-6 py-5 px-3 text-center xl:w-3/4 bg-white"
